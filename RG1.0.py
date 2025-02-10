@@ -1,5 +1,6 @@
 #working good
 #version 1
+#RG1.0 - response generator version 1.0 - simply generate the response and display
 #generating response from the model 
 import streamlit as st
 import google.generativeai as genai
