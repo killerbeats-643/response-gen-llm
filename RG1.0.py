@@ -31,22 +31,6 @@ def model_suggestion(title,question_type, questions_list):
         "Rating/Scale Questions, Date, Binary (Yes/No), Dropdown (multiple choices). "
         "Please avoid repeating content and strictly provide the response in json format"
     )
-    # prompt = (
-    # f"Analyze the following input: \n"
-    # f"1. Title: {title} \n"
-    # f"2. Question Type: {question_type} \n"
-    # f"3. Previous Questions: {questions_list} \n\n"
-    # "Based on the analysis, suggest a list of relevant new questions with their corresponding response types. "
-    # "Ensure that the suggested questions are distinct from the previous ones and are contextually relevant to the provided title and question type. "
-    # "The possible response types are: Text Box, Integer, File Input (doc, image, etc.), Rating/Scale Questions, Date, Binary (Yes/No), and Dropdown (multiple choices). "
-    # "Please strictly provide the output in JSON format, following this structure: \n\n"
-    # "{\n"
-    # "{'question': '<Suggested Question>', 'response_type': '<Suggested Response Type>'},\n"
-    # "...\n"
-    # "]\n"
-    # "}")
-
-
     print("Title", title)
     print("Question type", question_type)
     print("Questions ", questions_list)
