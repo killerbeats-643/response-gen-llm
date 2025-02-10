@@ -1,5 +1,6 @@
 #working good
 #version 1
+#generating response from the model 
 import streamlit as st
 import google.generativeai as genai
 
